@@ -1,0 +1,7 @@
+memory: 512M
+domain: southeast1.fe.gopivotal.com
+instances: 1
+applications:
+- name: springtrader-quote
+  path: target/quote.war
+  host: quote
